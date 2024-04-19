@@ -1,0 +1,42 @@
+header { 
+    color: black;   
+    font-family: cursive;
+}
+/* saving these for if i want to add buttons
+match the STRUCTURE in the gif colors dont matter look up box wires or whatever
+look up "puesdocoding"
+button {
+    font-size: 100%;
+    font-family: cursive;
+    width: 200px;
+    margin: 15px;
+    border: 2px solid ;
+    background-color: ;
+}
+
+button:hover {
+    background-color: ;
+    color:;
+}
+
+button:active {
+    font-size: 110%;
+    box-shadow: 0 0 10px #000 inset;
+
+} */
+nav ul {
+    display: ;
+    
+    justify-content:center;
+    position: relative;
+    border-radius: border-box;
+    min-width: 300px;
+    display: flex;
+    font-family: cursive;
+  }
+section ul{
+    font-family: cursive;
+    color:;
+    background-color: ;
+
+}
