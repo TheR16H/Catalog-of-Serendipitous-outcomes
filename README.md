@@ -1,7 +1,7 @@
 # Catalog of Serendipitous Outcomes
 
 ## Description 
-
+This site is a catalog of some of my best work.
 ## Table of Contents
 
 - [Support](#support)
@@ -12,8 +12,10 @@
 ## Support
 
 ## Roadmap
+As time goes on I intend to update this site with various additions of thing's i've done / am capable of.
 
 ## Contributing
+No contributions will be accepts nor will be needed for this project.
 
 ## License
 MIT License
