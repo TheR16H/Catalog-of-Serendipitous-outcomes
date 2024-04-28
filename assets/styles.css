@@ -1,7 +1,64 @@
 header { 
-    color: black;   
-    font-family: cursive;
+    color: purple;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    text-align: center;
+    /* background-color:black ; */
 }
+header h1{
+    background-color: black;
+}
+ /* we're gonna revisit this (in 2026) */
+  .banner img{
+    width: 100%;
+    height:30px;
+    overflow: hidden;
+    } 
+
+
+.left1{
+    width:60%;
+    position: relative;
+}
+.left1 img{
+    max-width: 100%;
+    z-index: 1;
+}
+.left1 .caption{
+    display: block;
+    width: 8%;
+    position: absolute;
+    padding: 3px;
+    bottom: 20px;
+    left: 0;
+    z-index: 8;
+    color: aqua;
+    background: black;
+}
+main article, article{
+     display: flex;
+    /*flex-wrap: wrap;
+    flex-grow: 1; */
+    columns: 2;
+    widows: 2;
+    justify-content: space-between;
+    
+
+}
+
+
+/* .page-section > h1 {
+    border-right: 55px solid rgb(94, 255, 0);
+    text-align: left;
+    align-items: stretch
+
+  } */
+
+
 /* saving these for if i want to add buttons
 match the STRUCTURE in the gif colors dont matter look up box wires or whatever
 look up "puesdocoding"
@@ -24,19 +81,64 @@ button:active {
     box-shadow: 0 0 10px #000 inset;
 
 } */
-nav ul {
-    display: ;
-    
-    justify-content:center;
-    position: relative;
-    border-radius: border-box;
-    min-width: 300px;
+/* nav ul {
+    display: flexbox;
+    justify-content: space-between;
+    /* position: relative; */
+    min-width: 100px;
     display: flex;
     font-family: cursive;
-  }
-section ul{
-    font-family: cursive;
-    color:;
-    background-color: ;
+    
+    padding: 14px 20px;
+    /* hover cmd will go here */
+  } */
+
+header nav{
+
+    text-align: right;
+    justify-content: space-evenly;
+    flex-direction: row;
+
 
 }
+
+section ul{
+    font-family: cursive;
+    
+
+}
+/* .verticalLine {
+    border-right: thick solid #ff0000;
+    
+  } */
+
+  aside img {
+ display: flex;
+ flex-direction: column
+/* z-index: index 8%; */
+  width: 50%;
+  height: 150px;
+  padding: 10px;
+  border: solid blue;
+  margin-left: 59px;
+    
+    /* columns: 2;
+    widows: 2; */
+  }
+  
+  aside{
+    display: flex;
+  
+    columns: 2;
+    widows: 2;
+    justify-content: flex-end;
+  }
+  
+
+ section {    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    
+  }
